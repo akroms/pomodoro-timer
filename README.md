@@ -12,7 +12,7 @@ Used technologies:
 
 
 
-<img src="./images/Techs.png" width="300" height="160" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="300" height="160" />
 In this project used:
 HTML/CSS and
 Vanilla JavaScript
