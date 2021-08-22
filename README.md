@@ -21,12 +21,11 @@ Used technologies:
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" width="200"/>
 </div>
 
-<style>
+<!-- <style>
  .d-flex {
    display:flex;
-   
  }
- <style>
+ <style> -->
 
 
 In this project used:
