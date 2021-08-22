@@ -1,0 +1,119 @@
+/* Base Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+/* Pomodoro Styles */
+body {
+  background-color: #ff6565;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 0 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.pomodoro {
+  padding: 1em;
+  background-color: #e9e9e9;
+  color: #ff6565;
+  border-radius: 0.6em;
+  width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.pomodoro-options {
+  display: flex;
+  flex-direction: column;
+  margin: 0.3em 0;
+}
+
+.pomodoro-time {
+  font-family: "Orbitron", sans-serif;
+}
+
+.pomodoro-option__item {
+  font-size: 1.1em;
+  border-radius: 0.5em;
+  border: 1px solid #ff6565;
+  margin: 0.2em auto;
+  width: 400px;
+  width: 100%;
+  padding: 0.1em 0em;
+}
+.pomodoro-option__item:hover {
+  background-color: #ff6565;
+  color: #e9e9e9;
+  cursor: pointer;
+}
+.pomodoro-option__item:active {
+  background-color: #fc7474;
+  color: #e9e9e9;
+  transition: ease-in 50ms;
+}
+
+.creator-name {
+  margin-top: 0.8em;
+}
+
+.creator-love {
+  width: 15px;
+  margin: 0 0.1em;
+}
+
+/* Animation */
+@keyframes beat {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}
+.creator-love {
+  animation: beat 800ms infinite;
+}
+
+.more-info {
+  text-decoration: none;
+  color: #ff6565;
+}
+.more-info:hover, .more-info:active {
+  color: #fc7474;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: black;
+}
+
+.dark-mode-border {
+  border-color: black;
+  color: black;
+}
+
+.dark-mode-hover:hover, .dark-mode-hover:active {
+  background-color: #1a1a1a;
+}
+
+@media (min-width: 40em) {
+  body {
+    font-size: 1.1em;
+  }
+
+  .pomodoro-options {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .pomodoro-options .pomodoro-option__item {
+    margin: 0 0.3em;
+  }
+}
