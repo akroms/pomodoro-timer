@@ -24,6 +24,7 @@ Used technologies:
 <style>
  .d-flex {
    display:flex;
+   justify-content:space-between; 
  }
  <style>
 
