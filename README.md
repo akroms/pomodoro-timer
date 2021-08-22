@@ -1,6 +1,6 @@
 # Pomodoro Timer
 
-<img src="./gif/gif.gif" width="800"/>
+<img src="./gif/gif.gif" width="100%"/>
 
 To see this site demo
 [click here](https://filp-color.netlify.app/)
