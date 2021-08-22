@@ -2,7 +2,7 @@
 
 ##### When user interact with this page it will changes background color
 
-<img src="./gif/gif.gif" width="600/>
+<img src="./gif/gif.gif" width="600"/>
 
 To see this site demo
 [click here](https://filp-color.netlify.app/)
