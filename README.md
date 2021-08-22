@@ -22,9 +22,10 @@ Used technologies:
 </div>
 
 In this project used:
-HTML/CSS and
+Pure 
+HTML/CSS/SASS and
 Vanilla JavaScript
-None of frameworks used in this little project
+None of frameworks used in this project
 like React or Vue
 
 <!-- For logo
